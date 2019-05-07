@@ -14,14 +14,6 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-candy
 
-# A/B
-AB_OTA_PARTITIONS += \
-    odm \
-    product \
-    recovery \
-    system_ext \
-    vbmeta_system
-
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
