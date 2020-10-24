@@ -251,7 +251,6 @@
         <item>200</item>
         <item>200</item>
         <item>200</item>
-        <item>200</item>
         <item>250</item>
         <item>300</item>
         <item>300</item>
@@ -270,7 +269,6 @@
          the screen brightness is recalculated. See the config_dynamicHysteresisLuxLevels
          description for how the constraint value is chosen. -->
     <integer-array name="config_dynamicHysteresisDarkLevels">
-        <item>200</item>
         <item>200</item>
         <item>200</item>
         <item>200</item>
