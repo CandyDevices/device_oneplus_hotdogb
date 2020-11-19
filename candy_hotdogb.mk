@@ -35,4 +35,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="OnePlus7T_EEA-user 10 QKQ1.190716.003 1910122101 release-keys"
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
-BUILD_FINGERPRINT := google/coral/coral:11/RP1A.200720.009/6720564:user/release-keys
+BUILD_FINGERPRINT := google/coral/coral:11/RP1A.201105.002/6869500:user/release-keys
