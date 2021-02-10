@@ -53,6 +53,10 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     tri-state-key-calibrate_daemon
 
+# Wifi Overlay
+PRODUCT_PACKAGES += \
+    OnePlus7TWifiOverlay
+
 PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_SHIPPING_API_LEVEL := 29
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
