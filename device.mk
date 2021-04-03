@@ -41,10 +41,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
-# tri-state key
-PRODUCT_PACKAGES += \
-    tri-state-key-calibrate_daemon
-
 # Wifi Overlay
 PRODUCT_PACKAGES += \
     OnePlus7TWifiOverlay
