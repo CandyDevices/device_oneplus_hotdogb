@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright (C) 2015 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -48,7 +48,7 @@
     </reference>
     <reference name="DEFAULT_DEVICE_CATEGORY_SPEAKER_VOLUME_CURVE">
     <!-- Default is Speaker Media Volume Curve -->
-    <!--#ifdef VENDOR_EDIT 
+    <!--#ifdef VENDOR_EDIT
         dujie@MM.Audio, 2020/01/15, reduce the minimum volume loudness -->
         <point>1,-5450</point>
         <point>20,-3050</point>
