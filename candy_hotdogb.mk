@@ -14,6 +14,9 @@ $(call inherit-product, device/oneplus/hotdogb/device.mk)
 # Inherit some common Candy stuff.
 $(call inherit-product, vendor/candy/config/common_full_phone.mk)
 
+# Inherit our vendor_gapps
+$(call inherit-product, vendor/gapps/config.mk)
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := candy_hotdogb
 PRODUCT_DEVICE := hotdogb
