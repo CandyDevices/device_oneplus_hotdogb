@@ -4,7 +4,7 @@
     "target_path" : "device/oneplus/sm8150-common"
   },
   {
-    "repository"  : "CandyRoms/android_vendor_gapps",
+    "repository"  : "CandyRoms/vendor_gapps",
     "target_path" : "vendor/gapps",
     "remote"      : "gitlab",
     "clone-depth" : "1"
