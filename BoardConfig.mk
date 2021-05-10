@@ -16,6 +16,9 @@ AB_OTA_PARTITIONS += \
     system_ext \
     vbmeta_system
 
+# Assertions
+TARGET_OTA_ASSERT_DEVICE := OnePlus7T,oneplus7t
+
 # Display
 TARGET_SCREEN_DENSITY := 420
 
