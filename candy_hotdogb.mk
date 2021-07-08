@@ -32,15 +32,15 @@ PRODUCT_CHARACTERISTICS := nosdcard
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
-BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys"
+BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ3A.210705.001/7380771:user/release-keys"
 
 # Build info
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=OnePlus7T \
     PRODUCT_NAME=OnePlus7T \
-    PRIVATE_BUILD_DESC="redfin-user 11 RQ3A.210605.005/7349499 release-keys"
+    PRIVATE_BUILD_DESC="redfin-user 11 RQ3A.210705.001 7380771 release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.fingerprint=google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys
+    ro.build.fingerprint=google/redfin/redfin:11/RQ3A.210705.001 7380771:user/release-keys
